@@ -1,4 +1,4 @@
-# data-analysis
+# Data Analysis
 
 Becoming a Data Analyst is like becoming a detective for data. You find clues, solve mysteries, and tell stories using numbers and facts. This roadmap is your guide to becoming a super-sleuth in the world of data.
 
@@ -9,10 +9,10 @@ This is where you learn what data analytics actually is and why it's so importan
 
 You'll also learn about the different flavors of data analysis:
 
-**Descriptive Analytics**: Looking at what happened (like "How many ice creams did we sell last month?").
-**Diagnostic Analytics**: Figuring out why it happened (like "Why did ice cream sales drop in the winter?").
-**Predictive Analytics**: Guessing what might happen in the future (like "How many ice creams will we sell next summer?").
-**Prescriptive Analytics**: Recommending what should be done (like "To boost sales, we should offer hot chocolate in winter and discount ice cream in summer.").
+- **Descriptive Analytics**: Looking at what happened (like "How many ice creams did we sell last month?").
+- **Diagnostic Analytics**: Figuring out why it happened (like "Why did ice cream sales drop in the winter?").
+- **Predictive Analytics**: Guessing what might happen in the future (like "How many ice creams will we sell next summer?").
+- **Prescriptive Analytics**: Recommending what should be done (like "To boost sales, we should offer hot chocolate in winter and discount ice cream in summer.").
 
 **Why**: This foundational knowledge helps you speak the language of data and understand your role in helping businesses make smarter decisions. It’s like learning the rules of a game before you start playing.
 
@@ -39,12 +39,12 @@ Before you can analyze data, you need to understand where it comes from and what
 
 **What**: You'll learn the lifecycle of data:
 
-**Collection**: Gathering data from various places (like surveys, websites, databases).
-**Cleanup**: Tidying up messy data (removing errors, filling in blanks).
-**Exploration**: Poking around the data to find interesting patterns.
-**Visualization**: Creating charts and graphs to make data easy to understand.
-**Statistical Analysis**: Using math to understand data patterns.
-**Machine Learning (Intro)**: A peek into teaching computers to learn from data.
+- **Collection**: Gathering data from various places (like surveys, websites, databases).
+- **Cleanup**: Tidying up messy data (removing errors, filling in blanks).
+- **Exploration**: Poking around the data to find interesting patterns.
+- **Visualization**: Creating charts and graphs to make data easy to understand.
+- **Statistical Analysis**: Using math to understand data patterns.
+- **Machine Learning (Intro)**: A peek into teaching computers to learn from data.
 
 **Why**: Think of it like cooking: you need to gather ingredients, clean them, chop them up, and then cook and present them nicely. Data analysis is similar.
 **How**: Focus on understanding the purpose of each step. Why do we clean data? Why do we visualize it?
@@ -95,8 +95,8 @@ Now we level up! Programming lets you handle much larger datasets and automate t
 
 **What**: You'll learn either Python or R, two popular programming languages for data analysis. You'll also learn essential libraries:
 
-**For Data Manipulation**: Pandas (Python) or Dplyr (R) – these are like super-powered Excel for organizing and transforming data.
-**For Data Visualization**: Matplotlib/Seaborn (Python) or Ggplot2 (R) – these help you create beautiful and complex charts.
+- **For Data Manipulation**: Pandas (Python) or Dplyr (R) – these are like super-powered Excel for organizing and transforming data.
+- **For Data Visualization**: Matplotlib/Seaborn (Python) or Ggplot2 (R) – these help you create beautiful and complex charts.
 
 **Why**: While Excel is great, it has limits. Programming allows you to clean, analyze, and visualize huge datasets efficiently and repeatably. It’s essential for working with "big data" and creating reproducible analyses.
 
@@ -126,17 +126,17 @@ Don't just copy-paste code without understanding what it does.
 This is about getting data and making it sparkling clean.
 
 **What:**
-**Data Collection**: Learn how to pull data from various sources:
-**Databases**: Using SQL (Structured Query Language) to talk to databases like a pro. This is a must-have skill!
-**CSV Files**: Simple spreadsheet-like files.
-**APIs**: Grabbing data from websites or services automatically.
-**Web Scraping**: Extracting data from websites, carefully and ethically.
-**Data Cleanup**: Deep dive into making data usable:
-Handling missing values (e.g., filling them in or removing rows).
-Removing duplicate entries.
-Finding and dealing with outliers (data points that are way different from others).
-Transforming data into the right format.
-Using your programming libraries (Pandas/Dplyr) for efficient cleanup.
+- **Data Collection**: Learn how to pull data from various sources:
+- **Databases**: Using SQL (Structured Query Language) to talk to databases like a pro. This is a must-have skill!
+- **CSV Files**: Simple spreadsheet-like files.
+- **APIs**: Grabbing data from websites or services automatically.
+- **Web Scraping**: Extracting data from websites, carefully and ethically.
+- **Data Cleanup**: Deep dive into making data usable:
+- Handling missing values (e.g., filling them in or removing rows).
+- Removing duplicate entries.
+- Finding and dealing with outliers (data points that are way different from others).
+- Transforming data into the right format.
+- Using your programming libraries (Pandas/Dplyr) for efficient cleanup.
 
 **Why**: Data is rarely perfect. Knowing how to get it and clean it is crucial; it ensures your analysis is based on good information, not garbage. SQL is a critical skill for almost any data role.
 **How**: Practice writing SQL queries. Work with datasets that have missing values or errors and try to fix them using your programming skills.
@@ -160,15 +160,15 @@ Don't just delete missing data without thinking about the impact.
 Now that your data is clean, it's time to actually analyze it!
 
 **What:**
-**Descriptive Analysis**: This is the "what happened" part, generating statistics like:
-**Central Tendency**: Mean (average), Median (middle number), Mode (most frequent).
-**Dispersion**: Range, Variance, Standard Deviation (how spread out the data is).
-**Distribution**: Skewness and Kurtosis (the shape of your data's distribution).
-**Data Visualization**: Creating compelling charts and dashboards to tell stories with data. You'll learn about different chart types (bar, line, scatter, pie, histograms) and use tools like Tableau or Power BI, alongside your programming libraries.
-**Statistical Analysis**: Going deeper into numbers to draw conclusions:
-**Hypothesis Testing**: Testing ideas or assumptions about your data (e.g., "Is there a real difference between sales in two regions?").
-**Correlation Analysis**: Seeing if two things move together (e.g., "Do ice cream sales increase with temperature?").
-**Regression**: Predicting one variable based on others.
+- **Descriptive Analysis**: This is the "what happened" part, generating statistics like:
+- **Central Tendency**: Mean (average), Median (middle number), Mode (most frequent).
+- **Dispersion**: Range, Variance, Standard Deviation (how spread out the data is).
+- **Distribution**: Skewness and Kurtosis (the shape of your data's distribution).
+- **Data Visualization**: Creating compelling charts and dashboards to tell stories with data. You'll learn about different chart types (bar, line, scatter, pie, histograms) and use tools like Tableau or Power BI, alongside your programming libraries.
+- **Statistical Analysis**: Going deeper into numbers to draw conclusions:
+- **Hypothesis Testing**: Testing ideas or assumptions about your data (e.g., "Is there a real difference between sales in two regions?").
+- **Correlation Analysis**: Seeing if two things move together (e.g., "Do ice cream sales increase with temperature?").
+- **Regression**: Predicting one variable based on others.
 
 **Why**: This is the core of what a Data Analyst does – turning numbers into actionable insights. Good visualizations make your findings clear and impactful.
 **How**: Practice applying statistical concepts to real datasets. Create various charts using different tools and learn which chart best tells which story. Understand the difference between correlation and causation.
