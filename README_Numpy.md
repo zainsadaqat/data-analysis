@@ -193,3 +193,100 @@ result = numbers + 10
 print(result[:10])      # first 10 values
 print(result[-10:])     # last 10 values
 ```
+
+Next objective: **turn NumPy from “cool” into “usable.”**
+Do not add new libraries yet. Depth before width.
+
+Cover this next, in order:
+
+1. **Indexing and slicing**
+
+- access one value
+- access a range
+- explain positions start at 0
+
+```py
+a = np.array([10, 20, 30, 40, 50])
+a[0]
+a[1:4]
+```
+
+If he can’t extract data, NumPy is useless.
+
+2. **Boolean masking**
+   This is the real bridge to data science.
+
+```py
+scores = np.array([45, 67, 89, 32, 76])
+passed = scores[scores >= 50]
+```
+
+Teach this as:
+
+> “Filter data using conditions.”
+
+This replaces `if` + loops mentally.
+
+3. **Basic statistics (only practical)**
+   No formulas. Only meaning.
+
+```py
+scores.mean()
+scores.max()
+scores.min()
+scores.sum()
+```
+
+Explain:
+
+- average
+- extreme values
+- totals
+
+This matches real reports and analysis.
+
+4. **Shape and size**
+   Just enough to avoid confusion later.
+
+```py
+scores.shape
+scores.size
+```
+
+Meaning:
+
+- how much data
+- how it’s structured
+
+No matrices yet.
+
+5. **From list → NumPy → result**
+   Force conversion thinking.
+
+Exercise:
+
+- start with Python list
+- convert to array
+- compute something
+- filter something
+- print result
+
+6. **One realistic mini-task**
+   Example:
+
+- exam scores
+- monthly expenses
+- case durations
+  Anything numeric and familiar.
+
+Success condition for the next lesson:
+
+- He chooses NumPy **without being told**
+- He explains why a loop is unnecessary
+- He can filter and compute from memory
+
+Only after this:
+→ introduce Pandas.
+
+Do not rush.
+NumPy mastery here determines everything downstream.

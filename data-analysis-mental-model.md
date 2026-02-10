@@ -12,8 +12,6 @@ Nested structures get messy fast.
 
 Pandas exists to represent tabular data and perform vectorized operations on it.
 
-> Question: What does vectorized operations mean?
-
 ## What a CSV Actually Is
 
 A CSV is just text.
@@ -102,7 +100,7 @@ Then:
 
 - df['Product'] == 'Laptop'
 
-### Explain:
+### Explain
 
 This produces a boolean mask
 
@@ -267,5 +265,3 @@ Your current files should be renamed and reordered:
 - Sort results
 
 - Slice output
-
-If a step removes information, it must come after all logic that needs that information.
